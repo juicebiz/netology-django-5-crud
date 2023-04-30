@@ -32,7 +32,7 @@ jobs:
           --health-cmd pg_isready
           --health-interval 5s
           --health-timeout 5s
-          --health-retrives 5
+          --health-retrieves 5
 
     steps:
       - name: Проверяем репозиторий на наличие изменений
