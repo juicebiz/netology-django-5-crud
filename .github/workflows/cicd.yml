@@ -52,5 +52,5 @@ jobs:
       - name: Тестирование
         run: python manage.py test
 
-      - name: Деплой
-        uses:
+#      - name: Деплой
+#        uses:
